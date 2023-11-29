@@ -5,7 +5,7 @@ if number > 10:
     mod = number % 10
 else:
     mod = number % -10
-print("Last digit of {:d} is {:d} and is".format(number, mod) , end=" ")
+print("Last digit of {:d} is {:d} and is".format(number, mod), end=" ")
 if mod > 5:
     print("greater than 5")
 elif mod == 0:
