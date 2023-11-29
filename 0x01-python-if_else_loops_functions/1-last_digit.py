@@ -2,7 +2,7 @@
 import random
 number = random.randint(-10000, 10000)
 if number > 10:
-    mod =n umber % 10
+    mod = number % 10
 else:
     mod = number % -10
 print("Last digit of {:d} is {:d} and is ".format(number, mod) , end=" ")
